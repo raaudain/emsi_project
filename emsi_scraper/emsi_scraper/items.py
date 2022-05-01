@@ -3,7 +3,7 @@ from itemloaders.processors import MapCompose, TakeFirst
 from w3lib.html import replace_tags, replace_entities
 
 
-def clean_text(value):
+def clean_dict_text(value):
     header = value.get("text") if ":" in value.get("text") else value.get("text") + ":"
     content = value.get("content")
     content = replace_tags(content, " ")
@@ -22,7 +22,7 @@ class EmsiScraperItem(scrapy.Item):
         input_processor = MapCompose(remove_white_space), 
         output_processor = TakeFirst()
     )
-    additional_job_details = scrapy.Field(input_processor = MapCompose(clean_text))
+    additional_job_details = scrapy.Field(input_processor = MapCompose(clean_dict_text))
     location = scrapy.Field(output_processor = TakeFirst())
     date_posted = scrapy.Field(output_processor = TakeFirst())
     department = scrapy.Field(output_processor = TakeFirst())

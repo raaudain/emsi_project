@@ -8,6 +8,6 @@ The scraped data should be in a github repo and shared with us prior to doing a 
 
 ### Tools used for assignment
 
-- Python
-- Scrapy
+- Python 3.10
+- Scrapy 2.6
 - Firefox's DevTools
