@@ -9,12 +9,12 @@ def clean_dict_text(value):
     header = text if text.endswith(":") else text + ":"
     content = replace_tags(content, " ")
     content = replace_entities(content)
-    content = remove_white_space(content)
+    content = remove_white_spaces(content)
     details = f"{header} {content}"
     return {"content": details}
 
 
-def remove_white_space(value):
+def remove_white_spaces(value):
     return " ".join(value.split())
 
 
@@ -22,7 +22,7 @@ class EmsiScraperItem(scrapy.Item):
     job_id = scrapy.Field(output_processor=TakeFirst())
     job_title = scrapy.Field(output_processor=TakeFirst())
     job_description = scrapy.Field(input_processor=MapCompose(
-        remove_white_space), output_processor=TakeFirst())
+        remove_white_spaces), output_processor=TakeFirst())
     additional_job_details = scrapy.Field(
         input_processor=MapCompose(clean_dict_text))
     location = scrapy.Field(output_processor=TakeFirst())
