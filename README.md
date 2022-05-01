@@ -10,4 +10,4 @@ The scraped data should be in a github repo and shared with us prior to doing a 
 
 - Python 3.10
 - Scrapy 2.6
-- Firefox's DevTools
+- Firefox DevTools

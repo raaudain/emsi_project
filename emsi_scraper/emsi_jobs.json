@@ -291,7 +291,7 @@
             "content": "People who succeed in this position are: Team oriented and ready to work closely with other developers Comfortable with working in rapid development cycles Skilled oral and written communicators Enthusiastic for learning Prepared to contribute at a strategic level to engineering excellence discussions from day one"
         },
         {
-            "content": "Candidates must have:  Two years of experience with React development in a production environment Two years or more experience with server-side languages like PHP, Python, or Node One or more years of experience managing production environments in AWS Working knowledge of structured databases, e.g. MySQL, PostgreSQL"
+            "content": "Candidates must have: : Two years of experience with React development in a production environment Two years or more experience with server-side languages like PHP, Python, or Node One or more years of experience managing production environments in AWS Working knowledge of structured databases, e.g. MySQL, PostgreSQL"
         },
         {
             "content": "Great candidates also have: Experience with microservice architecture Experience building and consuming APIs"
@@ -571,7 +571,7 @@
     "job_description": "Emsi Burning Glass is looking for a skilled software engineer to work on the Classifiers & Extractors team. This team builds and maintains high-performance text extraction and classification libraries used to analyze job postings, resumes, and similar documents. In addition to the machine learning solutions, this team also produces the internal tooling and data pipelines to support teams of taxonomists and curators working to continuously improve Emsi’s classifications and libraries. The ideal candidate has significant experience working in high-performance systems languages, a working knowledge of linear algebra, and at least basic familiarity with machine learning techniques.",
     "additional_job_details": [
         {
-            "content": "Daily Responsibilities:  Develop and maintain extractors, classifiers, and the data pipelines to support them. Research the most effective solutions to text extraction and classification problems. Optimize solutions for maximal document per second per core throughput. Work with Emsi’s taxonomists and data curators to build the internal tooling and data pipelines necessary to continuously improve our libraries."
+            "content": "Daily Responsibilities: : Develop and maintain extractors, classifiers, and the data pipelines to support them. Research the most effective solutions to text extraction and classification problems. Optimize solutions for maximal document per second per core throughput. Work with Emsi’s taxonomists and data curators to build the internal tooling and data pipelines necessary to continuously improve our libraries."
         },
         {
             "content": "Key Skills: Systems programming on Linux, including working knowledge of virtual memory, optimizing for cacheline performance, and using the perf toolkit. Proficient in the D programming language or similar (C, C++). At least basic knowledge of machine learning techniques. Working knowledge of linear algebra, experience with Intel MKL or similar desirable. Good knowledge of algorithms and data structures. Fluent English, written and spoken. Git version control. Debugging with GDB. AWS S3, EC2, Athena."
