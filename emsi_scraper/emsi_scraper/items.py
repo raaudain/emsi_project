@@ -27,6 +27,7 @@ def replace_bad_chars(value):
     value = value.replace('”', '\'')
     value = value.replace("…", "...")
     value = value.replace("–", "--")
+    value = value.replace("é", "e")
     return value
 
 
