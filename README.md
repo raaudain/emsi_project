@@ -18,11 +18,11 @@ Since I already have experience scraping websites for job postings, finding the 
 
 This is my first time using Scrapy to complete a project.  I decided to use Scrapy because it's the preferred framework for Emsi BG's data engineering team.  I spent a lot of time going through Scrapy's documentation, reading articles, and watching videos to completing this assignment.
 
-By the time I was done, I understood why Scrapy is preferred over other scraping tools.  I wrote less code than I would have with BeautifulSoup or Selenium, and Scrapy's Item Loader adds more scalability.
+By the time I was done, I understood why Scrapy is preferred over other scraping tools.  I wrote less code than I would have with BeautifulSoup or Selenium, and Scrapy's Item Loaders add more scalability.
 
 ### About My Code
 
-- Data was cleaned using Scrapy's Item Loader input processor MapCompose.
+- Data was cleaned using Scrapy's Item Loaders input processor MapCompose.
 - Changed settings so that outputted JSON files are indented.
 - To avoid Unicode issues, `emsi_jobs.json` uses numeric encoding.
 - Code is formatted to follow the PEP 8 style guide.
